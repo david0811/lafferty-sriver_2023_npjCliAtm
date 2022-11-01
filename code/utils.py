@@ -1,5 +1,5 @@
 #######################################
-########### NEX & CIL MODELS ##########
+############## NEX & CIL ##############
 #######################################
 
 ssp_all = ['ssp126', 'ssp245', 'ssp370', 'ssp585']
@@ -48,7 +48,7 @@ cil_ssp_dict = {'ACCESS-ESM1-5': ssp_missing585,
                       'UKESM1-0-LL': ssp_all}
 
 #######################################
-########### ISIMIP3b MODELS ##########
+############### ISIMIP3b ##############
 #######################################
 
 ssp_missing245 = ['ssp126', 'ssp370', 'ssp585']
@@ -65,28 +65,24 @@ isimip_ssp_dict = {'CanESM5': ssp_missing245,
                    'UKESM1-0-LL': ssp_all}
 
 ########################################
-########### carbonplan MODELS ##########
+############## carbonplan ##############
 ########################################
 
-# SSPs
+# GARD-SV
 ssp_missing126 = ['ssp245', 'ssp370', 'ssp585']
+var_all = ['tasmin', 'tasmax', 'pr']
+var_missing_pr = ['tasmin', 'tasmax']
 
 gardsv_ssp_dict = {'BCC-CSM2-MR': ssp_missing126,
                    'CanESM5': ssp_missing126,
                    'MIROC6': ssp_missing126,
                    'MPI-ESM1-2-HR': ssp_missing126}
 
-deepsdbc_ssp_dict = {'CanESM5': ssp_missing126,
-                     'MRI-ESM2-0': ssp_missing126}
-
-# variables
-var_all = ['tasmin', 'tasmax', 'pr']
-var_missing_pr = ['tasmin', 'tasmax']
-
 gardsv_var_dict = {'BCC-CSM2-MR': var_missing_pr,
                    'CanESM5': var_all,
                    'MIROC6': var_missing_pr,
                    'MPI-ESM1-2-HR': var_all}
 
-deepsdbc_var_dict = {'CanESM5': var_all,
-                     'MRI-ESM2-0': var_all} # MRI-ESM2-0 is missing pr for SSP5-8.5
+# DeepSD-BC
+deepsdbc_dict = {'CanESM5': {'ssp245':var_all, 'ssp370':var_all, 'ssp585':var_all},
+                     'MRI-ESM2-0': {'ssp245':var_all, 'ssp370':var_all, 'ssp585':var_missing_pr}}
