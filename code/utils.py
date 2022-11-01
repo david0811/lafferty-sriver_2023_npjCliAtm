@@ -81,7 +81,7 @@ deepsdbc_ssp_dict = {'CanESM5': ssp_missing126,
 
 # variables
 var_all = ['tasmin', 'tasmax', 'pr']
-var_missing_pr = ['ssp245', 'ssp370', 'ssp585']
+var_missing_pr = ['tasmin', 'tasmax']
 
 gardsv_var_dict = {'BCC-CSM2-MR': var_missing_pr,
                    'CanESM5': var_all,
