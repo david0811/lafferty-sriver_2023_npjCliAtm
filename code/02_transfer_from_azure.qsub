@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=01:00:00
+#PBS -l pmem=10gb
+#PBS -A kaf26_c_g_sc_default
+#PBS -j oe
+#PBS -l feature=rhel7
+
+# Go to the correct place
+cd $PBS_O_WORKDIR
+
+# Run the job
+bash 02_transfer_from_azure.sh

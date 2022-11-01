@@ -26,7 +26,7 @@ _TBD_
 
 ### Instructions
 
-x. Transferring from Azure Blob Storage to your local storage: open the script `02_transfer_from_azure.sh` and edit the variable `OUT_PATH` to define where the files should be stored. Then run the script.
+x. Transfering from Azure Blob Storage to your local storage: open the bash script `02_transfer_from_azure.sh` and edit the variable `OUT_PATH` to define where the files should be stored. Then run the bash script.
 
 ## Dependencies
 
