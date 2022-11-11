@@ -7,11 +7,11 @@ OUT_PATH="/gpfs/group/kaf26/default/dcl5300/lafferty-sriver_inprep_tbh_DATA/metr
 
 # CIL-GDPCIR 
 azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/cil-gdpcir/' "${OUT_PATH}/cil-gdpcir_zarr/" --recursive
-# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/cil-gdpcir/annual_maxs/' "${OUT_PATH}/cil-gdpcir/" --recursive
-# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/cil-gdpcir/annual_maxs/' "${OUT_PATH}/cil-gdpcir/" --recursive
+# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/cil-gdpcir/max/' "${OUT_PATH}/cil-gdpcir/" --recursive
+# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/cil-gdpcir/max/' "${OUT_PATH}/cil-gdpcir/" --recursive
 
 # carbonplan
-# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/annual_avgs/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
-# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/annual_maxs/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
-# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/annual_avgs/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
-# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/annual_maxs/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
+# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/avg/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
+# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/max/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
+# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/avg/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
+# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/max/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
