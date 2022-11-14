@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -l nodes=1:ppn=1
-#PBS -l walltime=01:00:00
+#PBS -l walltime=06:00:00
 #PBS -l pmem=10gb
 #PBS -A kaf26_c_g_sc_default
 #PBS -j oe
@@ -10,4 +10,4 @@
 cd $PBS_O_WORKDIR
 
 # Run the job
-bash 02_transfer_from_azure.sh
+bash 03_transfer_from_azure.sh
