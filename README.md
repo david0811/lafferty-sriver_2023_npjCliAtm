@@ -32,8 +32,8 @@ To reproduce the entire anaylsis, sequentially execute all notebooks/scripts in 
 | --- | --- | --- |
 | 01a | Calculates historical temperature and precipitation quantiles from ERA5 dataset | x |
 | 01b | Calculates historical temperature and precipitation quantiles from GMFD dataset |  |
-| 01b* | *NOTE: You will need to manually transfer the GMFD quantiles to MPC in order to run scripts 02a and 02d fully; I did this by using the Azure Storage Explorer app* | |
-| 01c | Transfers ERA5 historical quantiles from MPC to local storage |  |
+| 01c | Transfers ERA5 historical quantiles to local storage |  |
+| 01d | Transfers GMFD historical quantiles to MPC | x |
 | 02a | Calculates suite of impact metrics for CIL-GDPCIR ensemble | x |
 | 02b | Calculates suite of impact metrics for NEX-GDDP ensemble |  |
 | 02c | Calculates suite of impact metrics for ISIMIP ensemble |  |
