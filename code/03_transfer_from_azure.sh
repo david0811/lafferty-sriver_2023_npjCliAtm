@@ -22,16 +22,16 @@ OUT_PATH="/gpfs/group/kaf26/default/dcl5300/lafferty-sriver_inprep_tbh_DATA/metr
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/wet/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/hot/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/dry/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
-azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/max5d/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
+# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/max5d/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/hotdry/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/GARD-SV/hot_spatial/' "${OUT_PATH}/carbonplan/native_grid/GARD-SV/" --recursive
 
 # DeepSD-BS
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/avg/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/max/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
-# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/dry/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
+azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/dry/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/hot/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/wet/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
-azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/max5d/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
+# azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/max5d/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/hotdry/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/carbonplan/DeepSD-BC/hot_spatial/' "${OUT_PATH}/carbonplan/native_grid/DeepSD-BC/" --recursive
