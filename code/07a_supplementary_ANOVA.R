@@ -63,5 +63,11 @@ for (city in c('lagos', 'delhi', 'houston', 'mexicocity', 'nyc', 'seattle', 'cai
     
     # Hot
     calculate_anova(city, 'hot', 'tasmax_q99gmfd_count', deg)
+    
+    # Hot-Dry
+    calculate_anova(city, 'hotdry', 'hotdry_q99gmfd_count', deg)
+    
+    # Wet
+    calculate_anova(city, 'wet', 'pr_q99gmfd_count', deg)
   }
 }
