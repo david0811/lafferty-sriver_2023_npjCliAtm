@@ -1,4 +1,6 @@
+*.qsub
 .ipynb_checkpoints/
 __pycache__/
 figs/
 data/
+OLD/

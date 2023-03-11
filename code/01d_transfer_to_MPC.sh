@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Transfer GMFD quantiles to MPC for calculating hot, wet days in CIL, carbonplan models
 OUT_PATH="/home/jovyan/PlanetaryComputerExamples/DownscalingComparison/lafferty-sriver_inprep_tbd/data/quantiles/"
 
 wget -P $OUT_PATH https://mpctransfer.blob.core.windows.net/mpctransfer/quantiles/gmfd_precip_quantiles.nc

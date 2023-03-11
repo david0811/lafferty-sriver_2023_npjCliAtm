@@ -4,8 +4,8 @@ library(car)
 # Set paths
 # UPDATE THIS FOR REPRODUCTION
 ###############################
-data_path <- '/storage/home/dcl5300/work/lafferty-sriver_inprep_tbd/data/'
-out_path = '/storage/home/dcl5300/work/lafferty-sriver_inprep_tbd/data/anova_results/'
+data_path <- '/storage/home/dcl5300/work/lafferty-sriver_inprep_tbd/data/' # location of csv files containing timeseries of raw and forced response for each city
+out_path = '/storage/home/dcl5300/work/lafferty-sriver_inprep_tbd/data/anova_results/' # where to store ANOVA results
 
 # Calculate ANOVA UC on forced response
 calculate_anova <- function(city, metric, var_id, deg){
@@ -47,7 +47,7 @@ calculate_anova <- function(city, metric, var_id, deg){
   }
 }
 
-# Loop through all
+# Loop through select cities
 for (city in c('lagos', 'delhi', 'houston', 'mexicocity', 'nyc', 'seattle', 'cairo', 'denver')) {
   for (deg in c('2', '4')) {
     # Avg

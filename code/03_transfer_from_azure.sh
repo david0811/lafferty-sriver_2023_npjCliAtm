@@ -3,9 +3,10 @@
 # make sure executable is in path
 export PATH=$PATH:/storage/home/dcl5300/work/azcopy_linux_amd64_10.16.1
 
-OUT_PATH="/gpfs/group/kaf26/default/dcl5300/lafferty-sriver_inprep_tbh_DATA/metrics"
+# Transfer CIL, carbonplan metrics from MPC to local storage
+OUT_PATH="/gpfs/group/kaf26/default/dcl5300/lafferty-sriver_inprep_tbh_DATA/metrics" # where to store metrics
 
-# CIL-GDPCIR 
+## CIL-GDPCIR 
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/cil-gdpcir/avg/' "${OUT_PATH}/cil-gdpcir/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/cil-gdpcir/max/' "${OUT_PATH}/cil-gdpcir/" --recursive
 # azcopy copy 'https://mpctransfer.blob.core.windows.net/mpctransfer/cil-gdpcir/wet/' "${OUT_PATH}/cil-gdpcir/" --recursive
