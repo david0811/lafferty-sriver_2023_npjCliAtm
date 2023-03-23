@@ -1,8 +1,8 @@
 _your zenodo badge here_
 
-# lafferty-sriver_inprep_tbg
+# lafferty-sriver_2023_tbd
 
-**Downscaling and bias-correction contribute considerable uncertainty to near-term projections of climate extremes** (tentative)
+**Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6**
 
 David Lafferty<sup>1\*</sup>, Ryan Sriver<sup>1</sup>
 
