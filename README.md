@@ -41,7 +41,7 @@ To reproduce the entire anaylsis, sequentially execute all notebooks/scripts in 
 | 03 | Transfers output data from `02a` and `02d` to local storage |  |
 | 04 | Conservatively regrids all output data from `02` to a common 0.25 degree grid |  |
 | 05 | Performs the uncertainty analysis |  |
-| 06a | Produces all main text figures |  |
+| 06 | Produces all main text figures |  |
 | 07a | Runs ANOVA analysis for select cities to infer interaction effects |  |
 | 07b | Produces all supplementary figures |  |
 
