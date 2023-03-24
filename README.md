@@ -12,7 +12,7 @@ David Lafferty<sup>1\*</sup>, Ryan Sriver<sup>1</sup>
 
 ## Abstract
 
-_Paper abstract goes here._
+Efforts to diagnose the risks of a changing climate often rely on downscaled and bias-corrected climate projections, but large uncertainties associated with downscaling and bias-correction are often ignored. Here, we quantify the relative importance of downscaling and bias-correction in driving projection uncertainty for a suite of metrics of climate change, including several indices of climate extremes. Our results show that downscaling and bias-correction rarely represent a negligible source of uncertainty, and can often contribute substantially to the total projection spread. Impact modelers and decision-makers who rely on a single set downscaled and bias-corrected climate projections may risk overconfidence relative to the full range of possible climate futures. 
 
 ## Journal reference
 
@@ -45,6 +45,11 @@ To reproduce the entire anaylsis, sequentially execute all notebooks/scripts in 
 | 07a | Runs ANOVA analysis for select cities to infer interaction effects |  |
 | 07b | Produces all supplementary figures |  |
 
+## How to reproduce the figures
+
+_Link to zenodo repo with main results netCDF files and small python script for generating figures_
+
 ## Dependencies
 
 - **Python**: include `environment.yml` file(s)
+- **R**: include `sessionInfo()`
