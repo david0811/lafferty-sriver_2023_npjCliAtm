@@ -12,7 +12,7 @@ David Lafferty<sup>1\*</sup>, Ryan Sriver<sup>1</sup>
 
 ## Abstract
 
-Efforts to diagnose the risks of a changing climate often rely on downscaled and bias-corrected climate projections, but large uncertainties associated with downscaling and bias-correction are often ignored. Here, we quantify the relative importance of downscaling and bias-correction in driving projection uncertainty for a suite of metrics of climate change, including several indices of climate extremes. Our results show that downscaling and bias-correction rarely represent a negligible source of uncertainty, and can often contribute substantially to the total projection spread. Impact modelers and decision-makers who rely on a single set downscaled and bias-corrected climate projections may risk overconfidence relative to the full range of possible climate futures. 
+Efforts to diagnose the risks of a changing climate often rely on downscaled and bias-corrected climate information, but many analyses ignore large uncertainties associated with this approach. Here, we perform a variance decomposition to partition uncertainty in global projections of several metrics of climate change and quantify the relative importance of downscaling and bias-correction. Our results are strongly heterogeneous across space, time, and climate metric, but we find that downscaling and bias-correction rarely represent a negligible source of uncertainty and can often contribute a substantial fraction of the total projection spread. Our results suggest that impact modelers and decision-makers who rely on a single set of downscaled and bias-corrected outputs may risk overconfidence relative to the full range of possible climate futures. 
 
 ## Journal reference
 
