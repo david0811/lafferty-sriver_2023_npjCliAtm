@@ -1,4 +1,4 @@
-name: climate-stack-mamba-2023-01
+name: lafferty_sriver_2023
 channels:
 - https://conda.anaconda.org/conda-forge
 dependencies:
