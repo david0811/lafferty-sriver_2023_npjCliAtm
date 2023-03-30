@@ -48,8 +48,8 @@ calculate_anova <- function(city, metric, var_id, deg){
 }
 
 # Loop through select cities
-for (city in c('lagos', 'delhi', 'houston', 'mexicocity', 'nyc', 'seattle', 'cairo', 'denver')) {
-  for (deg in c('2', '4')) {
+for (city in c('lagos', 'delhi', 'seattle')) {
+  for (deg in c('4')) {
     # Avg
     calculate_anova(city, 'avg', 'tas', deg)
     calculate_anova(city, 'avg', 'pr', deg)
@@ -71,3 +71,41 @@ for (city in c('lagos', 'delhi', 'houston', 'mexicocity', 'nyc', 'seattle', 'cai
     calculate_anova(city, 'wet', 'pr_q99gmfd_count', deg)
   }
 }
+
+# # Calculate ANOVA UC on raw outputs (NOT USED)
+# calculate_anova <- function(city, metric, var_id){
+#   read_path <- paste(data_path, paste(city, metric, var_id, sep='_'), '.csv', sep='')
+#   df <- read.csv(read_path)
+#   
+#   colnames <- c('year',
+#                 'ssp', 'model', 'ensemble',
+#                 'ssp_model', 'ssp_ensemble', 'model_ensemble',
+#                 'resid')
+#   
+#   df_out <- data.frame(matrix(ncol = 8, nrow = 0))
+#   colnames(df_out) <- colnames
+#   
+#   for (yr in unique(df$time)) {
+#     # Subset year
+#     df_yr <- df[df$time == yr,]
+#     
+#     # Unbalanced ANOVA model, 2-way interactions, type II
+#     formula <- as.formula(paste(var_id, '~ ssp + model + ensemble + 
+#                    ssp:model + ssp:ensemble + model:ensemble', sep=''))
+#     linmod <- lm(formula,
+#                  data=df_yr)
+#     anova <- Anova(linmod, type=2)
+#     
+#     # Append results
+#     df_tmp <- t(data.frame(append(yr, anova$`Sum Sq`)))
+#     colnames(df_tmp) <- colnames
+#     rownames(df_tmp) <- NULL
+#     df_out <- rbind(df_out, df_tmp)
+#   }
+#   
+#   save_path <- paste(out_path, paste(city, metric, var_id, sep='_'), '.csv', sep='')
+#   # Store
+#   write.csv(df_out,
+#             save_path,
+#             row.names = FALSE)
+# }
