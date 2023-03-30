@@ -6,7 +6,7 @@ _your zenodo badge here_
 
 David Lafferty<sup>1\*</sup>, Ryan Sriver<sup>1</sup>
 
-<sup>1</sup> University of Illinois
+<sup>1</sup> Department of Atmospheric Sciences, University of Illinois Urbana-Champaign
 
 \* corresponding author: davidcl2@illinois.edu
 
@@ -51,5 +51,5 @@ _Link to zenodo repo with main results netCDF files and small python script for 
 
 ## Dependencies
 
-- **Python**: include `environment.yml` file(s)
-- **R**: include `sessionInfo()`
+- **Python**: For `conda`, use `environment.yml`. For pip, use `requirements.txt`
+- **R**: see `Rsession.log`
