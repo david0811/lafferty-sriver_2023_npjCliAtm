@@ -1,0 +1,27 @@
+name: lafferty_sriver_2023
+channels:
+- https://conda.anaconda.org/conda-forge
+dependencies:
+- bottleneck
+- cartopy
+- cftime
+- dask
+- dask-jobqueue
+- dask-labextension
+- distributed
+- esmpy=8.2.0
+- jupyterlab
+- matplotlib
+- mscorefonts
+- nc-time-axis
+- nodejs
+- pint
+- rasterio
+- regionmask
+- rioxarray
+- scipy
+- xarray
+- xclim
+- xesmf
+- zarr
+
