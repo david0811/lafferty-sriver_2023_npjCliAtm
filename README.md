@@ -51,5 +51,5 @@ _Link to zenodo repo with main results netCDF files and small python script for 
 
 ## Dependencies
 
-- **Python**: For `conda`, use `environment.yml`. For pip, use `requirements.txt`
-- **R**: see `Rsession.log`
+- **Python**: `environment.yml`
+- **R**: `Rsession.log`
