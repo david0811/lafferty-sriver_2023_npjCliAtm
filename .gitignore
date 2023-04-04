@@ -4,3 +4,4 @@ __pycache__/
 figs/
 data/
 OLD/
+variance_decomposition_plot/
