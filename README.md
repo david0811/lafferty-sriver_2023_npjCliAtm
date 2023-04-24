@@ -12,7 +12,7 @@ David Lafferty<sup>1\*</sup>, Ryan Sriver<sup>1</sup>
 
 ## Abstract
 
-Efforts to diagnose the risks of a changing climate often rely on downscaled and bias-corrected climate information, but many analyses ignore large uncertainties associated with this approach. Here, we perform a variance decomposition to partition uncertainty in global projections of several metrics of climate change and quantify the relative importance of downscaling and bias-correction. Our results are strongly heterogeneous across space, time, and climate metric, but we find that downscaling and bias-correction rarely represent a negligible source of uncertainty and can often contribute a substantial fraction of the total projection spread. Our results suggest that impact modelers and decision-makers who rely on a single set of downscaled and bias-corrected outputs may risk overconfidence relative to the full range of possible climate futures. 
+Efforts to diagnose the risks of a changing climate often rely on downscaled and bias-corrected climate information, making it important to understand the uncertainties and potential biases of this approach. Here, we perform a variance decomposition to partition uncertainty in global climate projections and quantify the relative importance of downscaling and bias-correction. We analyze simple climate metrics such as annual temperature and precipitation averages, as well as several indices of climate extremes. We find that downscaling and bias-correction often contribute substantial uncertainty to local decision-relevant climate outcomes, though our results are strongly heterogeneous across space, time, and climate metrics. Our results can provide guidance to impact modelers and decision-makers regarding the uncertainties associated with downscaling and bias-correction when performing local-scale analyses, as neglecting to account for these uncertainties may risk overconfidence relative to the full range of possible climate futures. 
 
 ## Journal reference
 
@@ -47,7 +47,7 @@ To reproduce the entire anaylsis, sequentially execute all notebooks/scripts in 
 
 ## How to reproduce the figures
 
-_Link to zenodo repo with main results netCDF files and small python script for generating figures_
+Coming soon
 
 ## Dependencies
 
