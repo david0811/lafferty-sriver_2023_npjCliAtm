@@ -1,4 +1,4 @@
-_your zenodo badge here_
+[![DOI](https://zenodo.org/badge/549225679.svg)](https://zenodo.org/badge/latestdoi/549225679)
 
 # lafferty-sriver_2023_npjCliAtm
 
