@@ -1,6 +1,6 @@
 _your zenodo badge here_
 
-# lafferty-sriver_2023_tbd
+# lafferty-sriver_2023_npjCliAtm
 
 **Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6**
 
@@ -16,7 +16,7 @@ Efforts to diagnose the risks of a changing climate often rely on downscaled and
 
 ## Journal reference
 
-_TBD_
+Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6, D.C. Lafferty & R.L. Sriver, *npj Climate & Atmospheric Science* (2023)
 
 ## How to reproduce the experiment
 
@@ -44,10 +44,6 @@ To reproduce the entire anaylsis, sequentially execute all notebooks/scripts in 
 | 06 | Produces all main text figures |  |
 | 07a | Runs ANOVA analysis for select cities to infer interaction effects |  |
 | 07b | Produces all supplementary figures |  |
-
-## How to reproduce the figures
-
-Coming soon
 
 ## Dependencies
 
