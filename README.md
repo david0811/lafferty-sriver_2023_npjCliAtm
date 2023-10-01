@@ -16,7 +16,7 @@ Efforts to diagnose the risks of a changing climate often rely on downscaled and
 
 ## Journal reference
 
-Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6, D.C. Lafferty & R.L. Sriver, *npj Climate & Atmospheric Science* (2023)
+Lafferty, D.C. & Sriver, R.L. Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6. npj Clim Atmos Sci 6, 158 (2023). https://doi.org/10.1038/s41612-023-00486-0
 
 ## How to reproduce the experiment
 
